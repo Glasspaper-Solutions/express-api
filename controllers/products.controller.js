@@ -6,5 +6,6 @@ let products = [
 ]
 
 exports.getProducts = (req, res) => {
-
+    res.send(products)
 }
+
